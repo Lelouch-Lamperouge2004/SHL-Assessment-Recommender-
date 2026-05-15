@@ -72,8 +72,11 @@ def compare_assessments(user_text, catalog):
     first = matched[0]
     second = matched[1]
 
-    reply = f"{first['name']} focuses on {first['description']} {second['name']} focuses on {second['description']}"
-
+    reply = generate_llm_reply(
+    user_text,
+    [first, second]
+)
+    
     return {
         "reply": reply,
         "recommendations": [],
@@ -118,5 +121,5 @@ def generate_response(messages):
     return {
         "reply": reply,
         "recommendations": recommendations,
-        "end_of_conversation": False
+        "end_of_conversation": True
     }
