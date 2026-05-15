@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Java 8",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/java-8-new/",
+    "test_type": "K",
+    "description": "Measures Java programming knowledge, object-oriented programming, syntax, collections, exception handling, and core Java concepts."
+  },
+  {
+    "name": "Java Programming",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/java-programming/",
+    "test_type": "K",
+    "description": "Assesses practical Java coding ability, problem solving, programming logic, and software development knowledge."
+  },
+  {
+    "name": "Verify Interactive - Numerical Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-interactive-numerical-reasoning/",
+    "test_type": "A",
+    "description": "Measures numerical reasoning, data interpretation, charts, tables, and business number analysis."
+  },
+  {
+    "name": "Verify Interactive - Deductive Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-interactive-deductive-reasoning/",
+    "test_type": "A",
+    "description": "Measures logical thinking, problem solving, rule application, and decision making."
+  },
+  {
+    "name": "OPQ32r",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
+    "test_type": "P",
+    "description": "Measures workplace personality, communication style, teamwork, leadership, motivation, and behavioral preferences."
+  },
+  {
+    "name": "Core Java (Entry Level) (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+    "test_type": "K",
+    "description": "Multi-choice test that measures the knowledge of basic Java constructs, OOP concepts, file handling, exception handling, threads, generic class and inner class."
+  },
+    {
+    "name": "Core Java (Advanced Level) (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/core-java-advanced-level-new/",
+    "test_type": "K",
+    "description": "Multi-choice test that measures the knowledge of basic Java constructs, OOP concepts, files and exception handling, and advanced Java concepts like generics, collections, threads, strings and concurrency."
+  },
+    {
+    "name": "Python (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/python-new/",
+    "test_type": "K",
+    "description": "Multi-choice test that measures the knowledge of Python programming, databases, modules and library."
+  },
+    {
+    "name": "SQL (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+    "test_type": "K",
+    "description": "Multi-choice test that measures the knowledge of SQL queries, data manipulation and transaction processing."
+  },
+    {
+    "name": "Automata - SQL (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/automata-sql-new/",
+    "test_type": "S",
+    "description": "A simulated query writing test that measures the ability to write SQL queries to perform DDL, DML and DCL tasks."
+  },
+    {
+    "name": "JavaScript (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/javascript-new/",
+    "test_type": "K",
+    "description": "Multi-choice test that measures knowledge of programming in the JavaScript language and its application in front-end development."
+  },
+      {
+    "name": "Automata Front End",
+    "url": "https://www.shl.com/products/product-catalog/view/automata-front-end/",
+    "test_type": "S",
+    "description": "Simulation based test that measures the front-end development capabilities using HTML, CSS, and JavaScript. The candidate is provided with 3 different sections to code in HTML, CSS and JavaScript respectively and a separate output section to view the output. This simulation is then manually scored."
+  },
+    {
+    "name": "Filing - Numbers",
+    "url": "https://www.shl.com/products/product-catalog/view/filing-numbers/",
+    "test_type": "K",
+    "description": "This test measures ability to sort items in numerical order. Test takers are shown a graphical display of four folder tabs -- three contain numbers and one is blank, and all are sorted in numeric order. The test taker is required to select the number from a list that belongs on the blank tab."
+  },
+    {
+    "name": "SHL Verify Interactive – Numerical Reasoning",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+    "test_type": "A , S",
+    "description": "Assesses how the candidate comprehends numerical information in various formats."
+  },
+    {
+    "name": "SHL Verify Interactive – Deductive Reasoning",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
+    "test_type": "A , S",
+    "description": "Measures the ability to draw logical conclusions based on information provided, identify strengths and weaknesses of arguments, and complete scenarios using incomplete information."
+  },
+    {
+    "name": "SHL Verify Interactive - Inductive Reasoning",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/",
+    "test_type": "A , S",
+    "description": "Evaluates ability to identify specific patterns in data or situations and generalize that information to broader contexts."
+  },
+    {
+    "name": "Business Communication (adaptive)",
+    "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+    "test_type": "K",
+    "description": "This is an adaptive test that measures knowledge of communicating in the workplace. It measures the skills necessary to communicate effectively with coworkers at all levels and with external business contacts. Designed for the average business worker, this test includes the following topics: Electronic Communication, Employment Communication, Listening, Meetings, Nonverbal Communication, Verbal Communication, and Written Communication."
+  },
+    {
+    "name": "OPQ Leadership Report",
+    "url": "https://www.shl.com/products/product-catalog/view/opq-leadership-report/",
+    "test_type": "P",
+    "description": "This OPQ (Occupational Personality Questionnaire) report provides a detailed analysis of an individual's leadership potential. It is based on SHL's leading edge Leadership Model, providing a competency based approach to leadership."
+  },
+    {
+    "name": "Occupational Personality Questionnaire OPQ32r",
+    "url": "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
+    "test_type": "P",
+    "description": "The SHL Occupational Personality Questionnaire, the OPQ32, is one of the most widely used and respected measures of workplace behavioural style in the world. It sets a high standard of measurement excellence, providing HR professionals and business managers with relevant and accurate information to make fast and well-informed people decisions. The OPQ32 provides a clear framework for understanding the impact of personality on job performance. It is internationally recognised for its accuracy of assessment. Over 90 independent validation studies have been conducted on the OPQ over a period of 25 years, across 20 countries and 40 industries, providing concrete evidence of its power to predict performance in the workplace."
+  },
+    {
+    "name": "Executive Scenarios",
+    "url": "https://www.shl.com/products/product-catalog/view/executive-scenarios/",
+    "test_type": "B",
+    "description": "Executive Scenarios is a unique test of Managerial Judgement - an individual’s ability to decide on effective ways of handling real life situations. It is specifically designed to assess judgement in Executives; a group who typically has significant work experience to draw on. It consists of hypothetical scenarios, each followed by several possible responses. Candidates rate the effectiveness of each response, using a 6-point scale, from highly undesirable to highly desirable. It can be used for recruitment, selection, training and development, performance management and coaching in a variety of functions and industries. Reports available: Executive Scenarios Narrative Report: A participant focused report that contains; - Executive Scenarios profile - VERY detailed narrative feedback of each of the 4 scales; Managerial Judgement, Managing Objectives, People Management and Reputation Management. - Development tips for each of the 6 style scales; Leading and Managing the work, Using external help, One-to-one, Workforce, Organisational support, Commercial support. Executive Scenarios Profile: Displays all scores on these scales in terms of four types of norm system; T-scores, Percentiles, Stens and Grades."
+  },
+    {
+    "name": "Customer Service Phone Simulation",
+    "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/",
+    "test_type": "B , S",
+    "description": "As part of Contact Center Simulations, the Customer Service Phone Simulation is designed for entry-level positions in a contact center environment. Sample tasks for these jobs include: verify the customer or account; take ownership of customer issues; interact with customers to provide information; respond positively to difficult, irate, or confused customers; listen attentively to callers; resolve calls in a timely manner; navigate within multiple information menus to view customer account details and process information; and type information quickly and accurately. Potential job titles that use this solution are: Call Center Representative, Contact Center Representative, Contact Center Agent, Customer Service Agent, Customer Service Representative, and Customer Advocate."
+  },
+    {
+    "name": "Adobe Experience Manager (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/adobe-experience-manager-new/",
+    "test_type": "K",
+    "description": "Multi-choice test that measures the knowledge of AEM components, templates, workflows, AEM collections, OSGi services and troubleshooting of AEM projects."
+  },
+    {
+    "name": "Account Manager Solution",
+    "url": "https://www.shl.com/products/product-catalog/view/account-manager-solution/",
+    "test_type": "C , P , A , B",
+    "description": "The Account Manager solution is an assessment used for job candidates applying to mid-level leadership positions that tend to manage the day-to-day operations and activities of client accounts. Sample tasks for these jobs include, but are not limited to: communicating with clients about project status, developing and maintaining project plans, coordinating internally with appropriate project personnel, and ensuring client expectations are being met. Potential job titles that use this solution are: Account Executive, Account Manager, and Senior Account Manager. There are multiple configurations of this solution available."
+  },
+    {
+    "name": "Business Communications",
+    "url": "https://www.shl.com/products/product-catalog/view/business-communications/",
+    "test_type": "K",
+    "description": "This test measures the candidate's knowledge of communicating in the workplace. It measures the skills necessary to communicate effectively with coworkers at all levels and with external business contacts. Designed for the average business worker, this test includes the following topics: Electronic Communication, Employment Communication, Listening, Meetings, Nonverbal Communication, Verbal Communication, and Written Communication. This version of the test is not adaptive."
+  },
+    {
+    "name": "Business Communication (adaptive)",
+    "url": "https://www.shl.com/products/product-catalog/view/business-communication-adaptive/",
+    "test_type": "K",
+    "description": "This is an adaptive test that measures knowledge of communicating in the workplace. It measures the skills necessary to communicate effectively with coworkers at all levels and with external business contacts. Designed for the average business worker, this test includes the following topics: Electronic Communication, Employment Communication, Listening, Meetings, Nonverbal Communication, Verbal Communication, and Written Communication."
+  }
+]
