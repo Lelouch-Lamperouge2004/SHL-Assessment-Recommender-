@@ -4,6 +4,26 @@ A conversational AI system that recommends SHL assessments using FastAPI, semant
 
 ---
 
+## Live Project Links
+
+### Live API Base URL
+
+https://shl-assessment-recommender-78e3.onrender.com
+
+### Swagger API Documentation
+
+https://shl-assessment-recommender-78e3.onrender.com/docs
+
+### ReDoc API Documentation
+
+https://shl-assessment-recommender-78e3.onrender.com/redoc
+
+### Health Check
+
+https://shl-assessment-recommender-78e3.onrender.com/health
+
+---
+
 ## Features
 
 - Conversational SHL assessment recommendations
@@ -22,7 +42,10 @@ A conversational AI system that recommends SHL assessments using FastAPI, semant
 
 - Python
 - FastAPI
+- Pydantic
 - Scikit-learn
+- TF-IDF Vectorization
+- Cosine Similarity
 - Gemini 1.5 Flash
 - Render
 - GitHub
@@ -31,116 +54,29 @@ A conversational AI system that recommends SHL assessments using FastAPI, semant
 
 ## API Endpoints
 
-### GET /health
+| Endpoint | Method | Description |
+|---|---|---|
+| `/` | GET | API status and useful links |
+| `/health` | GET | Checks whether the API is running |
+| `/docs` | GET | Swagger UI for testing API endpoints |
+| `/redoc` | GET | Alternative API documentation |
+| `/chat` | POST | Main conversational recommendation endpoint |
 
-Returns API readiness status.
+---
+
+## GET /
+
+Returns project status and useful API links.
 
 Example response:
 
 ```json
 {
-  "status": "ok"
+  "project": "SHL Conversational Assessment Recommender",
+  "status": "running",
+  "message": "API is live. Visit /docs to test the endpoints.",
+  "health": "/health",
+  "docs": "/docs",
+  "redoc": "/redoc",
+  "chat_endpoint": "/chat"
 }
-```
-
-### POST /chat
-
-Accepts stateless conversation history and returns SHL assessment recommendations.
-
-Example request:
-
-```json
-{
-  "messages": [
-    {
-      "role": "user",
-      "content": "Hiring a backend developer with Java and SQL skills"
-    }
-  ]
-}
-```
-
-Example response:
-
-```json
-{
-  "reply": "These assessments are suitable for evaluating backend programming and analytical skills.",
-  "recommendations": [
-    {
-      "name": "Java 8",
-      "url": "https://www.shl.com/...",
-      "test_type": "K"
-    }
-  ],
-  "end_of_conversation": true
-}
-```
-
----
-
-## Project Structure
-
-```text
-app.py
-recommender.py
-vector_store.py
-llm.py
-catalog.json
-requirements.txt
-README.md
-```
-
----
-
-## Local Setup
-
-Clone repository:
-
-```bash
-git clone https://github.com/Lelouch-Lamperouge2004/SHL-Assessment-Recommender-.git
-```
-
-Create virtual environment:
-
-```bash
-python -m venv venv
-```
-
-Activate environment (Windows):
-
-```bash
-venv\Scripts\activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run locally:
-
-```bash
-uvicorn app:app --reload
-```
-
----
-
-## Deployment
-
-Deployed on Render.
-
-Base URL:
-
-```text
-https://shl-assessment-recommender-78e3.onrender.com
-```
-
----
-
-## Notes
-
-- Recommendations are restricted to SHL catalog entries only.
-- Conversation history is handled statelessly.
-- Responses are schema-validated using Pydantic.
-- Hallucinated URLs and external recommendations are prevented through catalog grounding.
