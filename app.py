@@ -5,6 +5,16 @@ from recommender import generate_response
 
 app = FastAPI()
 
+@app.get("/")
+def root():
+    return {
+        "project": "SHL Assessment Recommender",
+        "status": "running",
+        "health": "/health",
+        "chat_endpoint": "/chat",
+        "docs": "/docs"
+    }
+
 class Message(BaseModel):
     role: Literal["user", "assistant"]
     content: str
